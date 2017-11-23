@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:DAL"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+
+            </MenuItem>
+        </Menu>
+        <Grid >
+            <Button Content="Help" HorizontalAlignment="Left" Margin="19,31,0,0" VerticalAlignment="Top" Width="75"/>
+        </Grid>
+
+    </DockPanel>
 </Window>
